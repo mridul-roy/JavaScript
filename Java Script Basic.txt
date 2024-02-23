@@ -1,0 +1,54 @@
+var total_c = 15;
+
+var typed_c = prompt ("Write your text here:");
+
+var rem_c = typed_c.length;
+
+
+
+alert ("Your remain ceracter is :" + (total_c - rem_c) +" and you typed " + typed_c.length);
+
+
+
+var text = prompt("Write down your tweet here:");
+var v_text = text.slice(0,140);
+alert(v_text);
+
+
+var name = prompt("What is your name?");
+
+var f_car = name.slice(0,1).toUpperCase();
+
+alert("Hello, " + f_car + name.slice(1,name.length).toLowerCase());
+
+
+// Function call with parameter.
+
+
+
+
+
+
+function lifeInWeeks(age) {
+    
+/************Don't change the code above************/    
+    
+    //Write your code here.
+
+
+var rem_year = 90 - age;
+
+var rem_month = rem_year * 12;
+
+var rem_weeks = rem_year * 52;
+
+var rem_days = rem_year * 365;
+
+
+    
+console.log("You have "+rem_days+" days, "+rem_weeks+"weeks, and "+rem_month+ "months left.")
+    
+/*************Don't change the code below**********/
+}
+
+lifeInWeeks(56);
