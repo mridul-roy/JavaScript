@@ -52,3 +52,78 @@ console.log("You have "+rem_days+" days, "+rem_weeks+"weeks, and "+rem_month+ "m
 }
 
 lifeInWeeks(56);
+
+
+// // Function call with parameter.
+
+
+
+
+
+
+// function lifeInWeeks(age) {
+    
+// /************Don't change the code above************/    
+    
+//     //Write your code here.
+
+
+// var rem_year = 90 - age;
+
+// var rem_month = rem_year * 12;
+
+// var rem_weeks = rem_year * 52;
+
+// var rem_days = rem_year * 365;
+
+
+    
+// console.log("You have "+rem_days+" days, "+rem_weeks+"weeks, and "+rem_month+ "months left.")
+    
+// /*************Don't change the code below**********/
+// }
+
+// lifeInWeeks(56);
+
+
+
+// var weight = console.log("Enter weight in kg: ");
+// var height = console.log("Enter height in cm: ");
+
+//Create your function below this line.
+//The first parameter should be the weight and the second should be the height.
+// function bmiCalculator(weight,height){
+//     var bmi = weight/ (height*height)
+
+//     return bmi;
+    
+    
+// }
+
+// bmiCalculator(65, 1.8); 
+
+
+/* If my weight is 65Kg and my height is 1.8m, I should be able to call your function like this:
+
+var bmi = bmiCalculator(65, 1.8); 
+
+bmi should equal 20 when it's rounded to the nearest whole number.
+
+*/
+
+// Love Calculator
+
+var your_name = prompt("Enter your name:");
+var lover_name = prompt("Enter your loved one's name:");
+
+var ran = Math.random();
+ran = Math.floor(ran * 100) + 1;
+if (ran >= 70){
+    alert("Your's love score is "+ran+" %. Wish you all the best!!!");
+    
+}
+else{
+    alert("Your's love score is "+ran+" %");
+    
+}
+
